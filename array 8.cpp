@@ -1,18 +1,25 @@
 #include<iostream>
 using namespace std;
-int main () {
+
     // Find the maximum element in the array .
 
-    int nums[]={4,2,5,6,3,9,12,10};
-    int size = sizeof(nums)/sizeof(nums[0]);
-    int count=0;
-
-    for (int i=0 ; i<size ; i++){
-        if (count < nums[i]){
-            count = nums[i];
+    int maximuminarray(int arr[], int size){
+        int max = INT32_MIN;
+      for (int i=0 ; i<size ; i++){
+        if (arr[i] > max){
+            max=arr[i];
         }
+      }
+      return max;
     }
-    cout<< "Maximum Element " << count << endl ;
+
+    int main (){
+
+        int nums[]={9,2,7,-30,14,3,1,-22};
+        int n = sizeof(nums)/sizeof(nums[0]);
+
+        cout << maximuminarray(nums,n);
+    }
 
 
-}
+
