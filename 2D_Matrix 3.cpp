@@ -30,7 +30,7 @@ int main()
            sum = sum + arr[i][j];
         }
 
-        cout << "sum of row -: " i << " " << sum << endl;
+        cout << "sum of row -: "<< i << " " << sum << endl;
     }
 
    
