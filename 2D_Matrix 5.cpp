@@ -2,7 +2,7 @@
 using namespace std;
 int main (){
 
-// code for printing diagonal from left to right direction
+
 
 int arr[4][4];
 
