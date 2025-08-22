@@ -25,8 +25,8 @@ int mian (){
             }
         }
     }
-    cout << count_even <<" ";
-    cout << count_odd <<" ";
+    cout <<"even no. is :-  "<< count_even <<" ";
+    cout << "odd no. is :-  "<< count_odd <<" ";
      
     
 }
